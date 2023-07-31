@@ -1,0 +1,13 @@
+{
+  "name": "Chrome Bookmarks",
+  "description": "Export/Import Chrome bookmarks as MD/YAML/JSON files",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "bookmarks",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
